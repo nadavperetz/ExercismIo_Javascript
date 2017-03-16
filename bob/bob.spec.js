@@ -18,8 +18,8 @@ describe('Bob', function() {
         expect(result).toEqual('Sure.');
     });
 
-    //TODO 
-    xit('talking forcefully', function() {
+    //TODO
+    it('talking forcefully', function() {
         var result = bob.hey('Let\'s go make out behind the gym!');
         expect(result).toEqual('Whatever.');
     });
