@@ -4,7 +4,7 @@ var Gigasecond = function (date) {
 
 Gigasecond.prototype.date = function() {
     const gigaseconds = (Math.pow(10, 9));
-    const gigaseconds_in_miliseconds = (Math.pow(10, 9))*1000;
+    const gigaseconds_in_miliseconds = gigaseconds*1000;
     return new Date(this.original_date.getTime() + gigaseconds_in_miliseconds)
 };
 
